@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(#757575, #cfcfcf);
+  background-attachment: fixed;
+}
+
+@font-face {
+  font-family:"Arial Rounded";
+  src: url(ARLRDBD.ttf);
+}
+
+header{
+  font-size: 50px;
+  border-style: none none solid none;
+  border-width: 1px;
+  font-family: "Arial Rounded";
+  color:white;
+  text-align: center;
+}
+
+p{
+  color:white;
+  font-size:100px;
+  font-family:"Arial Rounded";
+  position: relative;
+  background:gray;
+  padding:3%;
+  padding-right:10%;
+  border-radius:25px;
+  width:fit-content;
+  text-align:center;
+  left:49.5%;
+  transform: translate(-50%);
+}
+
+h2{
+  color:white;
+  font-family: "Arial Rounded";
+  font-size:60px;
+  text-align:center;
+}
+
+button {
+  display: inline-block;
+  width: 50%;
+  border: none;
+  color:white;
+  padding: 14px 28px;
+  font-size: 40px;
+  cursor: pointer;
+  text-align: center;
+  position:relative;
+  left:29.5%;
+  border-radius: 25px;
+  background: green;
+  margin:-5%;
+  top:-5%;
+  font-family:"Arial Rounded";
+}
+button:hover {
+  color:darkgray;
+  background: #006600;
+}
